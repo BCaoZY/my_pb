@@ -1,5 +1,5 @@
 ---
-- hosts: bx.43.198
+- hosts: antispam_bx
   remote_user: zhiyuan15
   tasks:
     - name: test connection
