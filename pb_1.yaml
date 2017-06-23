@@ -2,7 +2,5 @@
 - hosts: antispam_bx
   remote_user: zhiyuan15
   tasks:
-    - name: test connection
-      ping:
     - name: test touch file
       shell: touch /tmp/playbook.txt
