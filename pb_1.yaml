@@ -4,3 +4,4 @@
   tasks:
     - name: test touch file
       shell: touch /tmp/playbook.txt
+      when: 1 == 1
